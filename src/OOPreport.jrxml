@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a5ebf2ce-7e52-4392-aa51-647bf9a0d712">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="4"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[select * from booking]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="387" splitType="Stretch">
+			<rectangle>
+				<reportElement x="87" y="-1" width="363" height="38" uuid="d42f2fbd-0283-4526-8db7-8568f41b76fa"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="87" y="0" width="363" height="38" uuid="3da0996a-d8d3-4dc6-868d-1f7ecdc5f0e0"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Calibri" size="24" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Bonfire Adventures Booking System]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="59" width="50" height="20" uuid="73fef04a-5a94-44ff-9831-f7873997ff89"/>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="59" width="100" height="20" uuid="08953bf6-caf9-4938-820c-005e3d63cf83"/>
+				<text><![CDATA[lastname]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="250" y="59" width="100" height="20" uuid="3a54a108-28ba-47b7-9329-87bee6920713"/>
+				<text><![CDATA[ticketsnumber]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="350" y="59" width="100" height="20" uuid="6c0e4b7c-544d-4fbf-9696-8e3e241ccb92"/>
+				<text><![CDATA[daysofvacation]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="59" width="100" height="20" uuid="7ba707b4-b443-43d8-bd56-69c881037ed0"/>
+				<text><![CDATA[modeoftravel]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="59" width="100" height="20" uuid="d015da19-4765-44ed-bee1-c327f7171d32"/>
+				<text><![CDATA[firstname]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="96" width="100" height="20" uuid="5fda1af6-0de2-4d08-b3f5-8fe68492dace"/>
+				<text><![CDATA[weddy]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="96" width="100" height="20" uuid="328559fd-ba97-4445-9ee3-81d085cb2d01"/>
+				<text><![CDATA[karimi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="250" y="96" width="100" height="20" uuid="f650fc00-3886-4ccc-ac87-53855064ce08"/>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="350" y="96" width="100" height="20" uuid="a945fd34-e630-458d-8f38-386ef2c0e6df"/>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="96" width="100" height="20" uuid="c7a34ac8-3def-46e9-ace2-790ac3f9fcce"/>
+				<text><![CDATA[Vehicle]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="96" width="50" height="20" uuid="edabebfc-f825-4f89-bb5c-4471a70ceb30"/>
+				<text><![CDATA[15]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="116" width="50" height="20" uuid="b0350629-be01-45a3-8a53-8f6ed2c092ce"/>
+				<text><![CDATA[16]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="136" width="50" height="20" uuid="f4b70bc1-3e3a-4d8c-bd0b-e4c3aa598b85"/>
+				<text><![CDATA[17]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="156" width="50" height="20" uuid="5e328a2c-e87a-42fc-b6f6-d3f1864b5a3b"/>
+				<text><![CDATA[18]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="176" width="50" height="20" uuid="9a9b7637-70f8-4208-912a-7dd15e8ff611"/>
+				<text><![CDATA[19]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="116" width="100" height="20" uuid="9c0834ba-3b76-4f69-b31b-49075098fecd"/>
+				<text><![CDATA[faith]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="136" width="100" height="20" uuid="0f54d8a5-a199-4967-9131-13000c3ca7b8"/>
+				<text><![CDATA[joseck]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="156" width="100" height="20" uuid="576d3257-a629-46d5-9771-e3b82d49a982"/>
+				<text><![CDATA[beth]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="176" width="100" height="20" uuid="d88fd42c-c6fe-4da7-a55e-1cf0f31c3a2d"/>
+				<text><![CDATA[mane]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="116" width="100" height="20" uuid="87dfb06d-cf06-4dcc-8993-16d7d2540f02"/>
+				<text><![CDATA[musyoki]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="136" width="100" height="20" uuid="3f7deaec-06ff-4069-869c-6f81807bfe1e"/>
+				<text><![CDATA[nyachoti]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="156" width="100" height="20" uuid="ee619e28-7585-4625-bce1-6fc9807c0a5a"/>
+				<text><![CDATA[kanyiri]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="176" width="100" height="20" uuid="c1464ca1-5482-4147-b907-27d8abd9d71f"/>
+				<text><![CDATA[nesh]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="250" y="116" width="100" height="20" uuid="f3bdb88f-e4ef-4740-abeb-d638e03025e6"/>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="250" y="136" width="100" height="20" uuid="73f4aabd-49b1-472c-9bbe-3df6c6a7a89e"/>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="250" y="156" width="100" height="20" uuid="1f712946-135c-4563-9dfb-73c3ee78fe78"/>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="250" y="176" width="100" height="20" uuid="74068967-654f-4897-9a1e-55b0c84627bf"/>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="350" y="116" width="100" height="20" uuid="03815eb5-6245-4907-b334-351855c2ce9e"/>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="350" y="136" width="100" height="20" uuid="86b91171-905a-4e2f-98ba-417ff56af52f"/>
+				<text><![CDATA[3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="350" y="156" width="100" height="20" uuid="4395e392-ff19-443b-8f21-bb908aabd7b0"/>
+				<text><![CDATA[3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="350" y="176" width="100" height="20" uuid="ab3c8b13-2ff4-4f64-9ce6-5ca79fa66743"/>
+				<text><![CDATA[3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="116" width="100" height="20" uuid="84d52f45-370c-41f1-b951-518273b7cef2"/>
+				<text><![CDATA[Vehicle]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="136" width="100" height="20" uuid="5997f9dc-c065-4f67-95ee-c38ea8f8536d"/>
+				<text><![CDATA[Plane]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="156" width="100" height="20" uuid="a4c12330-6de3-41f7-b698-f21fa2f8de5c"/>
+				<text><![CDATA[SGR/Train]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="176" width="100" height="20" uuid="048f21d0-fd6e-42c3-ac04-9024e165204c"/>
+				<text><![CDATA[SGR/Train]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="196" width="50" height="20" uuid="68867141-eaec-4ba5-a557-73942942a6a0"/>
+				<text><![CDATA[20]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="196" width="100" height="20" uuid="2caeb201-0238-4230-bda6-c7adad5d07b1"/>
+				<text><![CDATA[kathambi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="196" width="100" height="20" uuid="58841bcf-bef2-4923-b9d8-b45e96d79dae"/>
+				<text><![CDATA[jeremy]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="250" y="196" width="100" height="20" uuid="0a3787e2-ef9d-4040-bf02-62719c52c2c8"/>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="350" y="196" width="100" height="20" uuid="2dc37258-907a-4eb9-b139-bacfe7e99f6a"/>
+				<text><![CDATA[3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="196" width="100" height="20" uuid="694e79bd-7aa1-4e5c-9ab3-96f847c1aba8"/>
+				<text><![CDATA[SGR/Train]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+</jasperReport>
